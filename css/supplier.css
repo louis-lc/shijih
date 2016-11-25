@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.breadcrumbs{
+	font-size: 15px;
+	color: #666;
+}
+.breadcrumbs em{
+	margin: 0 8px;
+}
+.inside-supplier-enter{
+	width: 948px;
+	margin: auto;
+}
+.enter-steps{
+	width: 948px;
+	height: 45px;
+	background: url(../image/enter-step1.png) no-repeat;
+}
+.enter-steps ul li {
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	width: 316px;
+	text-align: center;
+	font-size: 16px;
+	color: #666;
+}
+.notice-login{
+    padding: 10px;
+    border: 1px solid #f60;
+    background: #FFFAEC;
+}
+.fillInfo-title{
+	height: 40px;
+	line-height: 40px;
+    background: #f7f7f7;
+}
+.inp-box .inp-box-lbl{
+	float: left;
+    width: 180px;
+    text-align: right;
+    line-height: 34px;
+    font-size: 14px;
+    font-family: simsun;
+}
