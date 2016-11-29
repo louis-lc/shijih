@@ -16,6 +16,12 @@
 	height: 45px;
 	background: url(../image/enter-step1.png) no-repeat;
 }
+.enter-steps-two{
+	background: url(../image/enter-step2.png) no-repeat;
+}
+.enter-steps-three{
+	background: url(../image/enter-step3.png) no-repeat;
+}
 .enter-steps ul li {
 	float: left;
 	height: 45px;
@@ -35,6 +41,9 @@
 	line-height: 40px;
     background: #f7f7f7;
 }
+.inp-box{
+	margin-top: 20px;
+}
 .inp-box .inp-box-lbl{
 	float: left;
     width: 180px;
@@ -42,4 +51,77 @@
     line-height: 34px;
     font-size: 14px;
     font-family: simsun;
+}
+.inp-box .inp-box-input{
+	float: left;
+	width: 300px;
+}
+.inp-box .inp-box-up{
+	width: 200px;
+	float: left;
+}
+.inp-box .inp-box-tip{
+	padding-left: 180px;
+	color: #999;
+}
+.inp-box .inp-box-input .input_t{
+	width: 100%;
+    height: 34px;
+    border: 1px solid #ddd;
+    padding-left: 6px;
+}
+.inp-box .input-box-notice {
+    height: 34px;
+    float: left;
+    color: #f00;
+    line-height: 34px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-family: "宋体";
+}
+.inp-box .input-box-warn{
+	line-height: 34px;
+    float: left;
+    color: #999;
+}
+.inp-box .inp-box-tu,
+.inp-box .inp-box-litu{
+	float: left;
+	width: 120px;
+}
+.inp-box .inp-box-txt{
+	float: left;
+	width: 220px;
+	color: #999;
+}
+.inp-box .inp-box-tip input {
+	width: 128px;
+	height: 40px;
+	line-height: 40px;
+}
+.enter-steps-wait{
+	margin: 50px 0 150px 150px;
+}
+.enter-steps-wait .auditing-suc{
+	float: left;
+	width: 60px;
+}
+.enter-steps-wait .auditing-info{
+	margin-left: 80px;
+}
+.enter-steps-wait .auditing-info h2{
+	font-size: 28px;
+	padding-top: 10px;
+}
+.enter-steps-wait .auditing-info p{
+	font-size: 22px;
+	color: #666;
+	margin-top: 20px;
+}
+.enter-steps-suc{
+	text-align: center;
+	margin: 60px 0 150px 0;
+}
+.enter-steps-suc img{
+	margin: -10px 15px 0 0;
 }

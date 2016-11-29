@@ -50,6 +50,12 @@
 .fs-20{
 	font-size: 20px;
 }
+.fs-24{
+	font-size: 24px;
+}
+.fs-28{
+	font-size: 28px;
+}
 .text-c{
 	text-align: center;
 }
@@ -391,15 +397,14 @@
 	  color: #fff;
 }
 .sjh-btn-ok {
-    color: #f60;
-    background-color: #fff;
-    border-color: #f60
+    color: #fff;
+    background-color: #52C3DD;
+    border-color: #52C3DD
 }
 
 .sjh-btn-ok:hover {
-    color: #fff;
-    background-color: #f60;
-    border-color: #f60
+    background-color: #3CA8C1;
+    border-color: #3CA8C1
 }
 
 .sjh-btn-cancel {
